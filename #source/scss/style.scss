@@ -1,0 +1,195 @@
+@import "nullstyle.scss";
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    // background: url(/img/oas.jpg);
+    .conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+        .box {
+            display: inline-block;
+            border-radius: 2%;
+            height: 809px;
+            width: 550px;
+            background: #000;
+            .valuemonitor {
+                height: 25%;
+                .example, .sum{
+                    position: relative;
+                    top: 70%;
+                    display: flex;
+                    justify-content: right;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 900;
+                    margin: 0 60px;
+                    overflow: hidden;
+                }
+                .text{
+                    display: flex;
+                    padding: 30px 0 0 0;
+                    justify-content: center;
+                    color: white;
+                }
+        
+                .example {
+                    font-size: 15px;
+                    font-weight: 400;
+                    opacity: 0.5;
+                    margin: 0px 60px 60px 0;
+                    height: 20px;
+                }
+            }
+            .actions {  
+                display: block;
+                position: relative;
+                top: 10%;
+                left: 3%;
+                .row1, .row2, .row3, .row4, .row5{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .AC, .delete, .Percent, .divide, .seven, .eight, .nine, .multiply, .four, .five, .six, .subtraction, .one, .two, .three, .addition, .bracket, .zero, .dot, .equals {
+                        width: 90px;
+                        height: 90px;
+                        margin: 7px 25px 0 7px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 30px;
+                        font-weight: 900;
+                        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#535353+0,3f3f3f+100 */
+                        background: rgb(83,83,83); /* Old browsers */
+                        background: -moz-linear-gradient(left,  rgba(83,83,83,1) 0%, rgba(63,63,63,1) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(left,  rgba(83,83,83,1) 0%,rgba(63,63,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to right,  rgba(83,83,83,1) 0%,rgba(63,63,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12 +, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#535353', endColorstr='#3f3f3f',GradientType=1 ); /* IE6-9   */
+                        color: white;
+                        
+                    }
+                    .divide, .multiply, .subtraction, .addition, .equals {
+                        background: orange;
+                    }
+                    .AC, .delete, .Percent {
+                        background: #b0acac;
+                        color: #000;
+                    
+                    }
+                    
+                    .AC:hover, .delete:hover, .Percent:hover, .divide:hover, .seven:hover, .eight:hover, .nine:hover, .multiply:hover, .four:hover, .five:hover, .six:hover, .subtraction:hover, .one:hover, .two:hover, .three:hover, .addition:hover, .bracket:hover, .zero:hover, .dot:hover, .equals:hover {
+                        filter: brightness(125%);
+                    }
+                }
+                .row1 {
+                    .delete, .AC {
+                        .img {
+                            width: 40%;
+                            height: 40%;
+                            transform: rotate(90deg);
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    @media (max-width:1200px) {
+        .conteiner{
+            max-width: 970px;
+        }
+    }
+    @media (max-width:992px) {
+        .conteiner{
+            max-width: 750px;
+        }
+    }
+    @media (max-width:767px) {
+        .conteiner{
+            max-width: none;
+            // height: 100%;
+            .box {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                // margin: 0;
+                overflow: hidden;
+                .valuemonitor {
+                    height: 30%;
+                    .example, .sum{
+                        display: flex;
+                        color: white;
+                        font-size: 40px;
+                        font-weight: 900;
+                        position: relative;
+                        top: 100%;
+                        display: flex;
+                        justify-content: right;
+                        margin: 0 19%;
+                    }
+            
+                    .example {
+                        font-size: 25px;
+                        font-weight: 400;
+                        opacity: 0.5;
+                        margin: 0 19% 10px 0;
+                        height: 20px;
+                    }
+                }
+            }    
+        }
+    }
+    @media (max-height:767px) {
+        .conteiner{
+            max-height: none;
+            // height: 100%;
+            .box {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                // margin: 0;
+                overflow: hidden;
+                .valuemonitor {
+                    height: 10%;
+                    .example, .sum{
+                        display: flex;
+                        color: white;
+                        font-size: 40px;
+                        font-weight: 900;
+                        position: relative;
+                        top: 75%;
+                        display: flex;
+                        justify-content: right;
+                        margin: 0 50px;
+                    }
+            
+                    .example {
+                        font-size: 25px;
+                        font-weight: 400;
+                        opacity: 0.5;
+                        // margin: 0 19% 10px 0;
+                        height: 20px;
+                    }
+                }
+            } 
+            .actions {  
+                display: block;
+                position: relative;
+                top: 0%;
+                left: 0%;
+            }   
+        }
+    }
+    
+}
+
+
+

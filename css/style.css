@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input ::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+}
+body .conteiner .box {
+  display: inline-block;
+  border-radius: 2%;
+  height: 809px;
+  width: 550px;
+  background: #000;
+}
+body .conteiner .box .valuemonitor {
+  height: 25%;
+}
+body .conteiner .box .valuemonitor .example, body .conteiner .box .valuemonitor .sum {
+  position: relative;
+  top: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0 60px;
+  overflow: hidden;
+}
+body .conteiner .box .valuemonitor .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+body .conteiner .box .valuemonitor .example {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 0px 60px 60px 0;
+  height: 20px;
+}
+body .conteiner .box .actions {
+  display: block;
+  position: relative;
+  top: 10%;
+  left: 3%;
+}
+body .conteiner .box .actions .row1, body .conteiner .box .actions .row2, body .conteiner .box .actions .row3, body .conteiner .box .actions .row4, body .conteiner .box .actions .row5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .conteiner .box .actions .row1 .AC, body .conteiner .box .actions .row1 .delete, body .conteiner .box .actions .row1 .Percent, body .conteiner .box .actions .row1 .divide, body .conteiner .box .actions .row1 .seven, body .conteiner .box .actions .row1 .eight, body .conteiner .box .actions .row1 .nine, body .conteiner .box .actions .row1 .multiply, body .conteiner .box .actions .row1 .four, body .conteiner .box .actions .row1 .five, body .conteiner .box .actions .row1 .six, body .conteiner .box .actions .row1 .subtraction, body .conteiner .box .actions .row1 .one, body .conteiner .box .actions .row1 .two, body .conteiner .box .actions .row1 .three, body .conteiner .box .actions .row1 .addition, body .conteiner .box .actions .row1 .bracket, body .conteiner .box .actions .row1 .zero, body .conteiner .box .actions .row1 .dot, body .conteiner .box .actions .row1 .equals, body .conteiner .box .actions .row2 .AC, body .conteiner .box .actions .row2 .delete, body .conteiner .box .actions .row2 .Percent, body .conteiner .box .actions .row2 .divide, body .conteiner .box .actions .row2 .seven, body .conteiner .box .actions .row2 .eight, body .conteiner .box .actions .row2 .nine, body .conteiner .box .actions .row2 .multiply, body .conteiner .box .actions .row2 .four, body .conteiner .box .actions .row2 .five, body .conteiner .box .actions .row2 .six, body .conteiner .box .actions .row2 .subtraction, body .conteiner .box .actions .row2 .one, body .conteiner .box .actions .row2 .two, body .conteiner .box .actions .row2 .three, body .conteiner .box .actions .row2 .addition, body .conteiner .box .actions .row2 .bracket, body .conteiner .box .actions .row2 .zero, body .conteiner .box .actions .row2 .dot, body .conteiner .box .actions .row2 .equals, body .conteiner .box .actions .row3 .AC, body .conteiner .box .actions .row3 .delete, body .conteiner .box .actions .row3 .Percent, body .conteiner .box .actions .row3 .divide, body .conteiner .box .actions .row3 .seven, body .conteiner .box .actions .row3 .eight, body .conteiner .box .actions .row3 .nine, body .conteiner .box .actions .row3 .multiply, body .conteiner .box .actions .row3 .four, body .conteiner .box .actions .row3 .five, body .conteiner .box .actions .row3 .six, body .conteiner .box .actions .row3 .subtraction, body .conteiner .box .actions .row3 .one, body .conteiner .box .actions .row3 .two, body .conteiner .box .actions .row3 .three, body .conteiner .box .actions .row3 .addition, body .conteiner .box .actions .row3 .bracket, body .conteiner .box .actions .row3 .zero, body .conteiner .box .actions .row3 .dot, body .conteiner .box .actions .row3 .equals, body .conteiner .box .actions .row4 .AC, body .conteiner .box .actions .row4 .delete, body .conteiner .box .actions .row4 .Percent, body .conteiner .box .actions .row4 .divide, body .conteiner .box .actions .row4 .seven, body .conteiner .box .actions .row4 .eight, body .conteiner .box .actions .row4 .nine, body .conteiner .box .actions .row4 .multiply, body .conteiner .box .actions .row4 .four, body .conteiner .box .actions .row4 .five, body .conteiner .box .actions .row4 .six, body .conteiner .box .actions .row4 .subtraction, body .conteiner .box .actions .row4 .one, body .conteiner .box .actions .row4 .two, body .conteiner .box .actions .row4 .three, body .conteiner .box .actions .row4 .addition, body .conteiner .box .actions .row4 .bracket, body .conteiner .box .actions .row4 .zero, body .conteiner .box .actions .row4 .dot, body .conteiner .box .actions .row4 .equals, body .conteiner .box .actions .row5 .AC, body .conteiner .box .actions .row5 .delete, body .conteiner .box .actions .row5 .Percent, body .conteiner .box .actions .row5 .divide, body .conteiner .box .actions .row5 .seven, body .conteiner .box .actions .row5 .eight, body .conteiner .box .actions .row5 .nine, body .conteiner .box .actions .row5 .multiply, body .conteiner .box .actions .row5 .four, body .conteiner .box .actions .row5 .five, body .conteiner .box .actions .row5 .six, body .conteiner .box .actions .row5 .subtraction, body .conteiner .box .actions .row5 .one, body .conteiner .box .actions .row5 .two, body .conteiner .box .actions .row5 .three, body .conteiner .box .actions .row5 .addition, body .conteiner .box .actions .row5 .bracket, body .conteiner .box .actions .row5 .zero, body .conteiner .box .actions .row5 .dot, body .conteiner .box .actions .row5 .equals {
+  width: 90px;
+  height: 90px;
+  margin: 7px 25px 0 7px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  font-weight: 900;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#535353+0,3f3f3f+100 */
+  background: rgb(83, 83, 83); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(rgb(83, 83, 83)), to(rgb(63, 63, 63)));
+  background: linear-gradient(to right, rgb(83, 83, 83) 0%, rgb(63, 63, 63) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12 +, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#535353", endColorstr="#3f3f3f",GradientType=1 ); /* IE6-9   */
+  color: white;
+}
+body .conteiner .box .actions .row1 .divide, body .conteiner .box .actions .row1 .multiply, body .conteiner .box .actions .row1 .subtraction, body .conteiner .box .actions .row1 .addition, body .conteiner .box .actions .row1 .equals, body .conteiner .box .actions .row2 .divide, body .conteiner .box .actions .row2 .multiply, body .conteiner .box .actions .row2 .subtraction, body .conteiner .box .actions .row2 .addition, body .conteiner .box .actions .row2 .equals, body .conteiner .box .actions .row3 .divide, body .conteiner .box .actions .row3 .multiply, body .conteiner .box .actions .row3 .subtraction, body .conteiner .box .actions .row3 .addition, body .conteiner .box .actions .row3 .equals, body .conteiner .box .actions .row4 .divide, body .conteiner .box .actions .row4 .multiply, body .conteiner .box .actions .row4 .subtraction, body .conteiner .box .actions .row4 .addition, body .conteiner .box .actions .row4 .equals, body .conteiner .box .actions .row5 .divide, body .conteiner .box .actions .row5 .multiply, body .conteiner .box .actions .row5 .subtraction, body .conteiner .box .actions .row5 .addition, body .conteiner .box .actions .row5 .equals {
+  background: orange;
+}
+body .conteiner .box .actions .row1 .AC, body .conteiner .box .actions .row1 .delete, body .conteiner .box .actions .row1 .Percent, body .conteiner .box .actions .row2 .AC, body .conteiner .box .actions .row2 .delete, body .conteiner .box .actions .row2 .Percent, body .conteiner .box .actions .row3 .AC, body .conteiner .box .actions .row3 .delete, body .conteiner .box .actions .row3 .Percent, body .conteiner .box .actions .row4 .AC, body .conteiner .box .actions .row4 .delete, body .conteiner .box .actions .row4 .Percent, body .conteiner .box .actions .row5 .AC, body .conteiner .box .actions .row5 .delete, body .conteiner .box .actions .row5 .Percent {
+  background: #b0acac;
+  color: #000;
+}
+body .conteiner .box .actions .row1 .AC:hover, body .conteiner .box .actions .row1 .delete:hover, body .conteiner .box .actions .row1 .Percent:hover, body .conteiner .box .actions .row1 .divide:hover, body .conteiner .box .actions .row1 .seven:hover, body .conteiner .box .actions .row1 .eight:hover, body .conteiner .box .actions .row1 .nine:hover, body .conteiner .box .actions .row1 .multiply:hover, body .conteiner .box .actions .row1 .four:hover, body .conteiner .box .actions .row1 .five:hover, body .conteiner .box .actions .row1 .six:hover, body .conteiner .box .actions .row1 .subtraction:hover, body .conteiner .box .actions .row1 .one:hover, body .conteiner .box .actions .row1 .two:hover, body .conteiner .box .actions .row1 .three:hover, body .conteiner .box .actions .row1 .addition:hover, body .conteiner .box .actions .row1 .bracket:hover, body .conteiner .box .actions .row1 .zero:hover, body .conteiner .box .actions .row1 .dot:hover, body .conteiner .box .actions .row1 .equals:hover, body .conteiner .box .actions .row2 .AC:hover, body .conteiner .box .actions .row2 .delete:hover, body .conteiner .box .actions .row2 .Percent:hover, body .conteiner .box .actions .row2 .divide:hover, body .conteiner .box .actions .row2 .seven:hover, body .conteiner .box .actions .row2 .eight:hover, body .conteiner .box .actions .row2 .nine:hover, body .conteiner .box .actions .row2 .multiply:hover, body .conteiner .box .actions .row2 .four:hover, body .conteiner .box .actions .row2 .five:hover, body .conteiner .box .actions .row2 .six:hover, body .conteiner .box .actions .row2 .subtraction:hover, body .conteiner .box .actions .row2 .one:hover, body .conteiner .box .actions .row2 .two:hover, body .conteiner .box .actions .row2 .three:hover, body .conteiner .box .actions .row2 .addition:hover, body .conteiner .box .actions .row2 .bracket:hover, body .conteiner .box .actions .row2 .zero:hover, body .conteiner .box .actions .row2 .dot:hover, body .conteiner .box .actions .row2 .equals:hover, body .conteiner .box .actions .row3 .AC:hover, body .conteiner .box .actions .row3 .delete:hover, body .conteiner .box .actions .row3 .Percent:hover, body .conteiner .box .actions .row3 .divide:hover, body .conteiner .box .actions .row3 .seven:hover, body .conteiner .box .actions .row3 .eight:hover, body .conteiner .box .actions .row3 .nine:hover, body .conteiner .box .actions .row3 .multiply:hover, body .conteiner .box .actions .row3 .four:hover, body .conteiner .box .actions .row3 .five:hover, body .conteiner .box .actions .row3 .six:hover, body .conteiner .box .actions .row3 .subtraction:hover, body .conteiner .box .actions .row3 .one:hover, body .conteiner .box .actions .row3 .two:hover, body .conteiner .box .actions .row3 .three:hover, body .conteiner .box .actions .row3 .addition:hover, body .conteiner .box .actions .row3 .bracket:hover, body .conteiner .box .actions .row3 .zero:hover, body .conteiner .box .actions .row3 .dot:hover, body .conteiner .box .actions .row3 .equals:hover, body .conteiner .box .actions .row4 .AC:hover, body .conteiner .box .actions .row4 .delete:hover, body .conteiner .box .actions .row4 .Percent:hover, body .conteiner .box .actions .row4 .divide:hover, body .conteiner .box .actions .row4 .seven:hover, body .conteiner .box .actions .row4 .eight:hover, body .conteiner .box .actions .row4 .nine:hover, body .conteiner .box .actions .row4 .multiply:hover, body .conteiner .box .actions .row4 .four:hover, body .conteiner .box .actions .row4 .five:hover, body .conteiner .box .actions .row4 .six:hover, body .conteiner .box .actions .row4 .subtraction:hover, body .conteiner .box .actions .row4 .one:hover, body .conteiner .box .actions .row4 .two:hover, body .conteiner .box .actions .row4 .three:hover, body .conteiner .box .actions .row4 .addition:hover, body .conteiner .box .actions .row4 .bracket:hover, body .conteiner .box .actions .row4 .zero:hover, body .conteiner .box .actions .row4 .dot:hover, body .conteiner .box .actions .row4 .equals:hover, body .conteiner .box .actions .row5 .AC:hover, body .conteiner .box .actions .row5 .delete:hover, body .conteiner .box .actions .row5 .Percent:hover, body .conteiner .box .actions .row5 .divide:hover, body .conteiner .box .actions .row5 .seven:hover, body .conteiner .box .actions .row5 .eight:hover, body .conteiner .box .actions .row5 .nine:hover, body .conteiner .box .actions .row5 .multiply:hover, body .conteiner .box .actions .row5 .four:hover, body .conteiner .box .actions .row5 .five:hover, body .conteiner .box .actions .row5 .six:hover, body .conteiner .box .actions .row5 .subtraction:hover, body .conteiner .box .actions .row5 .one:hover, body .conteiner .box .actions .row5 .two:hover, body .conteiner .box .actions .row5 .three:hover, body .conteiner .box .actions .row5 .addition:hover, body .conteiner .box .actions .row5 .bracket:hover, body .conteiner .box .actions .row5 .zero:hover, body .conteiner .box .actions .row5 .dot:hover, body .conteiner .box .actions .row5 .equals:hover {
+  -webkit-filter: brightness(125%);
+          filter: brightness(125%);
+}
+body .conteiner .box .actions .row1 .delete .img, body .conteiner .box .actions .row1 .AC .img {
+  width: 40%;
+  height: 40%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+@media (max-width: 1200px) {
+  body .conteiner {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  body .conteiner {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  body .conteiner {
+    max-width: none;
+  }
+  body .conteiner .box {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+  }
+  body .conteiner .box .valuemonitor {
+    height: 30%;
+  }
+  body .conteiner .box .valuemonitor .example, body .conteiner .box .valuemonitor .sum {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 100%;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin: 0 19%;
+  }
+  body .conteiner .box .valuemonitor .example {
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 0 19% 10px 0;
+    height: 20px;
+  }
+}
+@media (max-height: 767px) {
+  body .conteiner {
+    max-height: none;
+  }
+  body .conteiner .box {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+  }
+  body .conteiner .box .valuemonitor {
+    height: 10%;
+  }
+  body .conteiner .box .valuemonitor .example, body .conteiner .box .valuemonitor .sum {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 75%;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin: 0 50px;
+  }
+  body .conteiner .box .valuemonitor .example {
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.5;
+    height: 20px;
+  }
+  body .conteiner .actions {
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+}
